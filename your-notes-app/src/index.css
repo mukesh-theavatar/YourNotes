@@ -1,10 +1,9 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   font-family: 'Work Sans',sans-serif;
   background:#eff3f4;
 }
-
 
 .center {
   text-align: center;
@@ -20,19 +19,15 @@ a:hover {
   text-decoration: underline;
 }
 
-
-
-
 /* note Styles */
 .note-container {
-  background:#fff;
-  padding:50px;
-  width:100%;
-  margin:40px auto;
+  background:rgb(7, 240, 201);
+  padding:30px;
+  width:40%;
+  margin:30px;
   box-shadow:0 5px 15px 0 rgba(46, 61, 73, 0.12);
   font-family:'Work Sans',sans-serif;
 }
-
 
 .note_heading {
   text-align:center;
@@ -40,7 +35,6 @@ a:hover {
   font-size:40px;
   color:#636363;
 }
-
 
 .form {
   display:flex;
@@ -60,16 +54,17 @@ a:hover {
   color:#636363;
   box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
   outline:none;
-  width:80%;
+  width:60%;
+  max-width: 80%;
 }
 
-
 .form textarea {
-  width:80%;
+  width:60%;
   max-width:80%;
   padding-left:15px;
   padding-right:15px;
   padding-top:15px;
+  padding-bottom: 80px;
   border: 1px solid #dbe2e8;
   font-size:14px;
   border-radius:2px;
@@ -122,7 +117,6 @@ a:hover {
   word-wrap: break-word;
 }
 
-
 .note_message {
   font-size:18px;
   font-weight: 200;
@@ -130,12 +124,10 @@ a:hover {
   word-wrap: break-word
 }
 
-
 .control-buttons {
   display:flex;
   justify-content: space-between;
 }
-
 
 .delete {
   background: #ff7777;
@@ -147,7 +139,6 @@ a:hover {
   outline: none;
   color:#fff;
 }
-
 
 .edit {
   background:#1102e4;
