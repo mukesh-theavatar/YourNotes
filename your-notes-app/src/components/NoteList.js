@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class noteList extends Component{
+class NoteList extends Component{
     render(){
         return(
             <div>
@@ -9,4 +9,4 @@ class noteList extends Component{
         );
     }
 }
-export default noteList;
+export default NoteList;

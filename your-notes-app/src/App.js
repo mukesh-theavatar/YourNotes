@@ -1,12 +1,12 @@
 import React from 'react'; 
-import Note from './components/newNote';
+import NewNote from './components/NewNote';
 //import logo from './logo.svg';
 //import './.css';
 
 function App() {
   return (
     <div className="App">
-      <Note/>
+    <NewNote/>
     </div>
   );
 }
